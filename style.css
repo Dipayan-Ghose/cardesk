@@ -1,0 +1,228 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+
+
+.heroImage {
+  position: relative;
+  margin: auto;
+  background: rgb(6, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(6, 0, 36, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.heroImage img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  opacity: 70%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0px;
+  padding: 50px;
+  height: 70px;
+  background-color: rgb(0, 0, 0, 0.15);
+}
+
+/* .navbarMenu{
+    display: flex;
+} */
+
+.webName h2 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.navbarMenu a {
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.heroText {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-weight: 700;
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+}
+.heroText p {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: x-large;
+  margin-top: 20px;
+}
+
+.heroText button {
+  padding: 12px;
+  border-radius: 5px;
+  width: 200px;
+  background-color: rgb(40, 137, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 600;
+  font-size: large;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.firstSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+
+}
+
+.brandCard {
+  transition: 0.2s;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+  height: 180px;
+}
+
+.brandCard:hover{
+  scale: 1.02;
+  background-color: rgb(245, 245, 245);
+ 
+}
+
+.brandCard h2 {
+  font-size: 35px;
+  color: rgb(0, 74, 148);
+}
+
+.brandCard p {
+  font-size: 20px;
+}
+
+.secondSection {
+  background-color: rgba(255, 162, 0, 0.478);
+  width: 100%;
+  padding: 50px 20px ;
+  margin: 50px auto;
+  display: flex;
+}
+
+.secondSection > div {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.secondSection > div h1 {
+  font-size: 50px;
+  color: rgb(140, 0, 0);
+}
+
+.secondSection > div p {
+  font-size: 30px;
+  width: 500px;
+  margin: auto;
+  font-weight: 500;
+  color: rgb(150, 0, 0);
+}
+
+.jeepCar {
+  width: 50%;
+}
+
+.jeepCar img {
+  width: 650px;
+  border-radius: 15px;
+}
+
+.thirdSection {
+  width: 55%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardImg {
+  background-color: rgba(122, 253, 255, 0.043);
+
+  width: 400px;
+  margin: auto;
+  height: 410px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardImg img {
+  width: 400px;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  border-radius: 18px;
+
+}
+
+.cardImg p{
+    padding: 10px 15px;
+}
+
+.cardImg button{
+    padding: 10px 15px;
+    margin: 10px 15px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    display: block;
+    text-align: start;
+    background-color: rgb(0, 128, 255);
+}
+
+.review{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  color: brown;
+  padding: 20px;
+  border: 2px solid rgb(147, 0, 0);
+  border-radius: 20px;
+}
+
+.review p{
+  display: block;
+  margin-top: 20px;
+  text-align: end;
+}
+
+footer{
+  margin-top: 50px;
+  display: flex;
+  padding: 30px 50px;
+  justify-content: space-between;
+  gap: 50px;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.833);
+}
